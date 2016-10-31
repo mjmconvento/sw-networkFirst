@@ -12,7 +12,7 @@ gulp.task('make-service-worker', function(callback) {
                 rootDir + '/js/*.js'
             ],
             runtimeCaching: [{
-                urlPattern: /http:\/\/localhost\/sw-cache\/php_actions\/\w{1,255}\.php/,
+                urlPattern: /https:\/\/localhost\/sw-cache\/php_actions\/\w{1,255}\.php/,
                 handler: 'networkFirst'
             }]
         },
