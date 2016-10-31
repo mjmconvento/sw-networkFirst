@@ -14,7 +14,7 @@ gulp.task('make-service-worker', function(callback) {
                 rootDir + '/manifest.json'
             ],
             runtimeCaching: [{
-                urlPattern: /http:\/\/devcon\.cardistry-arena\.com\/sw-cache\/php_actions\/\w{1,255}\.php/,
+                urlPattern: /https:\/\/devcon\.cardistry-arena\.com\/sw-cache\/php_actions\/\w{1,255}\.php/,
                 handler: 'networkFirst'
             }]
         },
