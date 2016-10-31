@@ -1,0 +1,38 @@
+.title-height {
+	font-size : 40px;
+}
+
+span.title,
+span.body,
+span.url,
+li.registered,
+li.online {
+	font-weight: bold;
+}
+
+hr.divider {
+	border-top: 2px solid black;
+}
+
+
+@media (min-width: 767px) {
+	div.posts {
+		border-left: 2px solid black;	
+		border-right: 2px solid black;	
+	}
+}
+
+div.row {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+ul.list-active li {
+    list-style:circle;
+    color:green;
+}
+
+ul.list-active li span {
+    color:#000;
+}

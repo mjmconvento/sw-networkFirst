@@ -1,0 +1,12 @@
+{
+    "name": "mj/sw-cache2",
+    "authors": [
+        {
+            "name": "mj",
+            "email": "mjmconvento@gmail.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "^1.6"
+    }
+}

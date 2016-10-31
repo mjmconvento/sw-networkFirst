@@ -1,0 +1,23 @@
+{
+  "name": "sw-cache2",
+  "version": "1.0.0",
+  "description": "node package downlaods",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "rest": "^2.0.0",
+    "when": "^3.7.7"
+  },
+  "devDependencies": {
+    "require": "^2.4.20",
+    "requirejs": "^2.3.2",
+    "rest": "^2.0.0",
+    "sw-precache": "^4.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mjmconvento",
+  "license": "ISC"
+}
