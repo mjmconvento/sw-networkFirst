@@ -249,7 +249,7 @@ self.addEventListener('fetch', function(event) {
 
 // Runtime cache configuration, using the sw-toolbox library.
 
-toolbox.router.get(/http:\/\/devcon\.cardistry-arena\.com\/sw-cache\/php_actions\/\w{1,255}\.php/, toolbox.networkFirst, {});
+toolbox.router.get(/https:\/\/devcon\.cardistry-arena\.com\/sw-cache\/php_actions\/\w{1,255}\.php/, toolbox.networkFirst, {});
 
 
 
